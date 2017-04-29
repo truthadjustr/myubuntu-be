@@ -11,6 +11,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-transport-h
     valgrind\
     less\
     openssh-client\
+    manpages-dev\
+    manpages-posix-dev\
     git
 
 WORKDIR /root/
