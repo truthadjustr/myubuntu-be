@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-transport-h
     openssh-client\
     manpages-dev\
     manpages-posix-dev\
+    dos2unix\
     git
 
 WORKDIR /root/
