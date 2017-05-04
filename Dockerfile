@@ -14,6 +14,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-transport-h
     manpages-dev\
     manpages-posix-dev\
     dos2unix\
+    automake\
+    ncurses-dev\
+    flex\
+    texinfo\
+    libreadline6 libreadline6-dev\
     git
 
 WORKDIR /root/
