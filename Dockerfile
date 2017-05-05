@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-transport-h
     texinfo\
     libreadline6 libreadline6-dev\
     file\
+    inotify-tools\
     git
 
 WORKDIR /root/
