@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-transport-h
     flex\
     texinfo\
     libreadline6 libreadline6-dev\
+    file\
     git
 
 WORKDIR /root/
